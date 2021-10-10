@@ -1,0 +1,52 @@
+.div-container {
+  display: grid;
+  justify-content: center;
+  background-color: white;
+}
+
+.content-container {
+  display: grid;
+  justify-items: center;
+  background-color: white;
+  max-width: 1500px;
+}
+
+.image-container {
+  display: grid;
+  gap: 50px;
+}
+
+img {
+  width: 100%;
+  max-width: 1000px;
+  border-style: solid;
+  border-color: lightslategray;
+  border-width: 0.2px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.text-container {
+  display: grid;
+  max-width: 300px;
+  justify-items: center;
+}
+
+.back-button {
+  background-color: lightslategray;
+  padding: 20px 50px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: lightgreen;
+}
+
+a {
+  text-decoration: none;
+}
